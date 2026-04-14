@@ -1,23 +1,68 @@
 # LogsPlease
-How to properly submit bug-reports or ask for support Minecraft edition. 
 
-1. Client Logs -> upload them to https://mclo.gs/ 
-   
-Description: Include logs from your game running locally.
-Note: You can easily miss something important by cutting logs out of context, do not trim or cut your logs, submit them as is.  
+## How to Properly Submit Bug Reports or Ask for Support (Minecraft Edition)
 
-2. Server Logs -> upload them to https://mclo.gs/ 
-Description: Include logs from your server. They could be found in log folders. 
+### 1. Client Logs
+Upload them to: https://mclo.gs/  
 
-It's important to have both, as problem could be on both or just one side. 
+**Description:**  
+Include logs from your game running locally.  
 
-3. Spark -> https://spark.lucko.me/docs
-Description : Include link to your spark profiler, it shows plugins, performance issues and server info easily.
+**Note:**  
+Do not trim or cut your logs. Missing context can hide important issues—submit them in full.
 
-4. Describe step by step in detail what you were doing.
-5. Describe behaviour that you expected to get.
-6. Describe what happened instead.
-7. Additional information. Attach video, images, or GIFs.
+---
 
-8.  Privacy concerns. https://mclo.gs/ automatically obfuscates your log. Spark does include most of your settings and rcon port, which you should not use anyway, please stop now if you still do.
-9.  Be patient.
+### 2. Server Logs
+Upload them to: https://mclo.gs/  
+
+**Description:**  
+Include logs from your server. These can usually be found in the `logs` folder.
+
+---
+
+**Important:**  
+Having both client and server logs is essential, as the issue may exist on either side—or both.
+
+---
+
+### 3. Spark Profiler
+Documentation: https://spark.lucko.me/docs  
+
+**Description:**  
+Include a link to your Spark profiler report. It provides useful insights into plugins, performance issues, and server details.
+
+---
+
+### 4. Steps to Reproduce
+Describe **step-by-step** what you were doing when the issue occurred.
+
+---
+
+### 5. Expected Behavior
+Explain what you expected to happen.
+
+---
+
+### 6. Actual Behavior
+Explain what happened instead.
+
+---
+
+### 7. Additional Information
+Attach any helpful media such as:
+- Videos  
+- Screenshots  
+- GIFs  
+
+---
+
+### 8. Privacy Concerns
+- https://mclo.gs/ automatically obfuscates sensitive information in logs.  
+- Spark may expose settings and your RCON port.  
+  - **Important:** Avoid using RCON if possible, as it can pose security risks.
+
+---
+
+### 9. Be Patient
+Support responses may take time—please be patient while waiting for help.
